@@ -1,2 +1,7 @@
 /*
   Cache-Control: public, max-age=3600
+/demo.mp4
+  Content-Type: video/mp4
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600
+

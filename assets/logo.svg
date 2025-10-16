@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" aria-hidden="true">
+  <defs><style>.line{fill:none;stroke:#c7a047;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}</style></defs>
+  <circle class="line" cx="120" cy="120" r="100"/>
+  <line class="line" x1="120" y1="20" x2="120" y2="220"/>
+  <path class="line" d="M46 120h40c12 0 22-10 22-22V70"/>
+  <path class="line" d="M60 90h46"/>
+  <path class="line" d="M72 150h34"/>
+  <path class="line" d="M80 120v40"/>
+  <path class="line" d="M126 70c18-18 46-12 60 10"/>
+  <path class="line" d="M126 110c22-18 42-6 54 10"/>
+  <path class="line" d="M126 150c18-12 40-6 54 8"/>
+</svg>

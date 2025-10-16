@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Right Brain Experience — Where Human Biology Meets Intelligent Systems</title>
+  <meta name="description" content="A practical and important use of AI: building personalized Human Firewalls that secure both people and systems.">
+  <!-- Security & Mixed-Content Protections -->
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-ancestors 'none'">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="dark light">
+  <style>
+    :root{
+      --navy:#0a1830; --navy-2:#102439; --gold:#c7a047;
+      --text:#e9eef6; --muted:#aab6c9; --card:#142844; --border:#284161;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;line-height:1.5;background:var(--navy);color:var(--text)}
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+    header{border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(16,36,57,.9),rgba(16,36,57,.6))}
+    .top{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:700;color:#fff}
+    .brand svg{width:36px;height:36px}
+    nav a{margin-left:16px;color:#dfe7f2}
+    .hero{background: radial-gradient(1200px 600px at 20% 20%, rgba(199,160,71,.18), transparent 50%), linear-gradient(180deg,var(--navy-2),var(--navy)); padding:80px 0}
+    .badge{display:inline-block;background:rgba(0,0,0,.5);padding:6px 10px;border-radius:999px;font-size:.85rem;letter-spacing:.02em}
+    h1{font-size:2.2rem;margin:.6rem 0}
+    .hero p{max-width:800px;color:#dfe7f2}
+    .cta{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:10px 16px;border-radius:10px;border:1px solid var(--gold);color:var(--gold);background:transparent}
+    .btn.primary{background:var(--gold);color:var(--navy)}
+    .grid{display:grid;gap:16px;margin:28px 0}
+    @media(min-width:860px){.grid.three{grid-template-columns:repeat(3,1fr)}}
+    .card{background:var(--card);border:1px solid var(--border);padding:18px;border-radius:14px}
+    .muted{color:var(--muted)}
+    footer{border-top:1px solid var(--border);padding:18px 0;color:#cfd8e6}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap top">
+      <a class="brand" href="/" aria-label="Right Brain Experience Home">
+        <!-- Inline SVG logo to avoid external requests -->
+        <svg viewBox="0 0 240 240" aria-hidden="true" focusable="false">
+          <defs><style>.ln{fill:none;stroke:#c7a047;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}</style></defs>
+          <circle class="ln" cx="120" cy="120" r="100"/>
+          <line class="ln" x1="120" y1="20" x2="120" y2="220"/>
+          <path class="ln" d="M46 120h40c12 0 22-10 22-22V70"/>
+          <path class="ln" d="M60 90h46"/>
+          <path class="ln" d="M72 150h34"/>
+          <path class="ln" d="M80 120v40"/>
+          <path class="ln" d="M126 70c18-18 46-12 60 10"/>
+          <path class="ln" d="M126 110c22-18 42-6 54 10"/>
+          <path class="ln" d="M126 150c18-12 40-6 54 8"/>
+        </svg>
+        <span>Right Brain Experience</span>
+      </a>
+      <nav role="navigation" aria-label="Primary">
+        <a href="/about.html#virtualtutor">VirtualTutor</a>
+        <a href="/about.html#human-firewall">Human Firewall</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <span class="badge">A Practical and Important Use of AI</span>
+        <h1>Where Human Biology Meets Intelligent Systems</h1>
+        <p>We build personalized <strong>Human Firewalls</strong> that protect both people and the systems they sustain — from the individual to the organization.</p>
+        <div class="cta">
+          <a class="btn primary" href="/about.html#virtualtutor">Explore VirtualTutor</a>
+          <a class="btn" href="/contact.html">Talk to us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="grid three">
+        <article class="card">
+          <h2 class="sr-only">VirtualTutor</h2>
+          <h3>VirtualTutor</h3>
+          <p>Adaptive micro‑learning that strengthens decision integrity and emotional regulation under pressure.</p>
+          <p><a href="/about.html#virtualtutor">Learn more</a></p>
+        </article>
+        <article class="card">
+          <h2 class="sr-only">Human Firewall</h2>
+          <h3>Human Firewall</h3>
+          <p>Practical frameworks for reducing social‑engineering risk by aligning human stability with system security.</p>
+          <p><a href="/about.html#human-firewall">Read the approach</a></p>
+        </article>
+        <article class="card">
+          <h2 class="sr-only">Privacy by Design</h2>
+          <h3>Privacy by Design</h3>
+          <p>Minimal data collection, clear consent, and user‑controlled exports — privacy is a feature, not a footnote.</p>
+          <p><a href="/privacy.html">Our privacy policy</a></p>
+        </article>
+      </div>
+      <p class="muted">Focused on sectors where trust and data protection matter most.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© Right Brain Experience LLC · Where Human Biology Meets Intelligent Systems</p>
+    </div>
+  </footer>
+
+  <script>
+    // Guard: convert any http:// links on the page to https:// at runtime (defense-in-depth)
+    (function() {
+      const links = document.querySelectorAll('a[href^="http://"]');
+      for (const a of links) a.setAttribute('href', a.getAttribute('href').replace(/^http:/, 'https:'));
+    })();
+  </script>
+</body>
+</html>
